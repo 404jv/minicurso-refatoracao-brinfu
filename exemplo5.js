@@ -1,4 +1,4 @@
-function handle(order, active) {
+function handleProcess(order, active) {
   if (active) {
     console.log(`Processando pedido ${order.id}`);
   } else {
@@ -6,7 +6,7 @@ function handle(order, active) {
   }
 }
 
-handle();
+handleProcess();
 
 // refatoração (change function declaration pg. 153)
 // 1. procedimento simples
