@@ -6,7 +6,11 @@ function handleProcess(order, active) {
   }
 }
 
-handleProcess();
+function handle(order, active) {
+  return handleProcess(order, active)
+}
+
+handle();
 
 // refatoração (change function declaration pg. 153)
 // 1. procedimento simples

@@ -11,7 +11,10 @@ for (const item of items) {
 // refatoração (split in phase pg. 183)
 for (const item of items) {
   total += item.price;
+} 
+
+for (const item of items) {
   if (item.price > 100) {
     expensiveItems.push(item);
   }
-} 
+}

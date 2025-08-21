@@ -11,8 +11,6 @@ function calculateTotal(orders) {
   return total;
 }
 
-// refatoração (pipeline)
-
 function calculateTotal(orders = []) {
   return orders
     .filter(order => order.isActive && order.amount > 100)
